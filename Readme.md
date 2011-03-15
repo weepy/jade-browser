@@ -32,3 +32,4 @@ denendencies
 
 npm install brequire jade
 
+latest npm, brequire
