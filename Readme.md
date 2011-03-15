@@ -16,7 +16,7 @@ build
 
 will build <code>jade.js</code> using brequire
 
-shim.js contain any necessary missing components, currently it consists of:
+jade-shim.js contains any necessary missing components, currently it consists of:
 
 * an empty module for 'fs'
 * definition for Object.keys
