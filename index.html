@@ -1,21 +1,18 @@
 <script src='./jade.js'></script>
 <script src='./jade-shim.js'></script>
+<script src='./templates.js'></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 
 <div id=test></div>
 
 <script>
 
-var jade = require("jade/lib")
-function test(name) {
-  $.ajax(name, {dataType: "html"})
-    .success(function(text){   
-      $("#test").append(jade.render("h3(style='color:blue') " + name) + jade.render(text))
-    })
-}
+var jade = require("jade")
 
-test("./templates/test1.jade")
-test("./templates/test2.jade")
+$().ready(function() {
+  $("#test").append(jade.render("h3(style='color:blue') " + name) + jade.render(templates.test1))
+  $("#test").append(jade.render("h3(style='color:blue') " + name) + jade.render(templates.test2))
+})
 
 </script>
 

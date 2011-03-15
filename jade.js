@@ -2644,3 +2644,13 @@ exports.text = function(str){
 });
 ;
 
+require.module('jade/index.js', function(module, exports, require) {
+// start module: jade/index.js
+
+
+module.exports = require('./lib/jade');
+
+// end module: jade/index.js
+});
+;
+

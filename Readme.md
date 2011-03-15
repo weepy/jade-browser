@@ -8,6 +8,7 @@ running
 
 open index.html in a browser
 
+works in Firefox, Chrome
 
 build
 ------
