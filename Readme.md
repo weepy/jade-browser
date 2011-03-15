@@ -25,7 +25,6 @@ shim.js contain any necessary missing components, currently it consists of:
 potential problems
 -----------
 * browsers that don't support __proto__
-* will need browser side versions of some of the other files
 
 denendencies
 ------------
